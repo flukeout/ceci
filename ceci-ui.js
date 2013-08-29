@@ -15,13 +15,10 @@ define(["jquery", "ceci"], function($, Ceci) {
   broadcastMenuToggle.setAttribute("class", "channel-menu-toggle");
   broadcastBlock.appendChild(broadcastMenuToggle.cloneNode(true));
 
-
-
   var channelDot = document.createElement("div");
   channelDot.setAttribute("class", "color dot");
 
   var channelBlock = document.createElement("div");
-  
   channelBlock.setAttribute("class", "channel");
   channelBlock.appendChild(channelDot.cloneNode(true));
 
